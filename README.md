@@ -4,6 +4,8 @@ Project challenge from The Odin Project's [Project: Restaurant Page](https://www
 
 ## Assignment
 
+### Development
+
 1. [ ] Create the ```package.json``` and set up Webpack.
     * Configure and install only the things you'll need for the project,
 2. [ ] Create a ```.gitignore``` file in the project root. Should contain ```node_modules``` and ```dist``` on separate lines.
@@ -18,3 +20,19 @@ Project challenge from The Odin Project's [Project: Restaurant Page](https://www
 7. [ ] Enable tabbed browsing to access the menu and contact pages:
     * [ ] Put the contents of each tab inside its own module. Each module should export a function that creates a div element, adds appropriate content and styles, and then appends the element to the DOM.
     * [ ] Write the tab-switching logic inside of ```index.js```. Should have event listeners for each button in the header navbar that wipes out the current contents of ```div#content``` and hen runs the correct tab module to populate it with the new contents again.
+
+### Deployment
+
+1. [ ] Make a new branch to deploy from by running ```git branch gh-pages```.
+2. [ ] Ensure all your work is committed.
+3. [ ] Run ```git checkout gh-pages && git merge main --no-edit``` to change branches and sync all changes from ```main``` so that you're ready to deploy.
+4. [ ] Bundle your application into ```dist``` with your build command ```npx webpack```.
+5. [ ] Run the following commands in order:
+
+```
+git add dist -f && git commit -m "Deployment commit"
+git subtree push --prefix dist origin gh-pages
+git checkout main
+```
+
+6. [ ] In github, change your source branch to ```gh-pages```.

@@ -6,9 +6,9 @@ Project challenge from The Odin Project's [Project: Restaurant Page](https://www
 
 ### Development
 
-1. [ ] Create the ```package.json``` and set up Webpack.
+1. [X] Create the ```package.json``` and set up Webpack.
     * Configure and install only the things you'll need for the project,
-2. [ ] Create a ```.gitignore``` file in the project root. Should contain ```node_modules``` and ```dist``` on separate lines.
+2. [X] Create a ```.gitignore``` file in the project root. Should contain ```node_modules``` and ```dist``` on separate lines.
 3. [ ] Set up an HTML skeleton inside ```src/template.html```:
     * Inside the body add a ```<header>```
     * The header should contain a ```<nav>``` with buttons for differnt "tabs" (e.g. Home, Menu, About)

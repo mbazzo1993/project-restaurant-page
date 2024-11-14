@@ -13,7 +13,7 @@ Project challenge from The Odin Project's [Project: Restaurant Page](https://www
     * Inside the body add a ```<header>```
     * The header should contain a ```<nav>``` with buttons for differnt "tabs" (e.g. Home, Menu, About)
     * Below the header, add a single ```<div id="content">```.
-4. [ ] Inside ```src/index.js``` write something to the console or an alert window then run ```npx webpack serve```. Open [http://localhost:8080](http://localhost:8080) and check if your JS is running.
+4. [X] Inside ```src/index.js``` write something to the console or an alert window then run ```npx webpack serve```. Open [http://localhost:8080](http://localhost:8080) and check if your JS is running.
 5. [ ] Inside ```div#content```, create a homepage for your restaurant.
 6. [ ] Remove everything inside ```div#content``` and instead create them using JS only.
     * [ ] Create a page load module in a separate file and import it into ```index.js```, then call the function from within the entry point file.

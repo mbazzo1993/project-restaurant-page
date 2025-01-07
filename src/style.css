@@ -105,9 +105,22 @@ button:hover {
 }
 
 .desc > p {
-    padding-top: 50px;
     font-size: large;
     width: 50vw;
     font-family: var(--button-font);
     line-height: 2;
+}
+
+h2 {
+    font-family: var(--button-font);
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: var(--button-font);
+    padding-top: 12px;
 }

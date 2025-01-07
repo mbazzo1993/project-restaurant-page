@@ -1,5 +1,6 @@
 import "./style.css";
 import { loadHomePage } from "./home";
+import { loadMenuPage } from "./menu";
 
 // console.log("This is your new restaurant page app!");
 
@@ -16,9 +17,9 @@ class DOMControl {
             this.loadHomePageContent();
         }
         if (selection === 'Menu') {
-            // do nothing
+            this.loadMenuContent();
         }
-        if (selection === 'About') {
+        if (selection === 'Contact') {
             // do nothing
         }
     })
@@ -40,6 +41,12 @@ class DOMControl {
 
         this.contentElem.appendChild(homePageContent.bannerElem);
         this.contentElem.appendChild(homePageContent.descriptionElem);
+    }
+
+    loadMenuContent() {
+        const menuContent = loadMenuPage();
+
+        this.contentElem.appendChild(menuContent.menuElem);
     }
 }
 

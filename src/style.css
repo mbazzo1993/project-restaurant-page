@@ -118,9 +118,26 @@ h2 {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 li {
     font-family: var(--button-font);
     padding-top: 12px;
+}
+
+.menu-container {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container > h2 {
+    text-align: center;
+}
+
+.menu-container > ul > li > h3,
+.menu-container > ul > li > p {
+    text-align: center;
 }

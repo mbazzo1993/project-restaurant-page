@@ -18,11 +18,11 @@ Project challenge from The Odin Project's [Project: Restaurant Page](https://www
     * [X] Style the nav bar and buttons first.
     * [X] Add a banner image.
     * [X] Add some content exlplaining the restaurant.
-6. [ ] Remove everything inside ```div#content``` and instead create them using JS only.
-    * [ ] Create a page load module in a separate file and import it into ```index.js```, then call the function from within the entry point file.
+6. [X] Remove everything inside ```div#content``` and instead create them using JS only.
+    * [X] Create a page load module in a separate file and import it into ```index.js```, then call the function from within the entry point file.
 7. [ ] Enable tabbed browsing to access the menu and contact pages:
     * [ ] Put the contents of each tab inside its own module. Each module should export a function that creates a div element, adds appropriate content and styles, and then appends the element to the DOM.
-    * [ ] Write the tab-switching logic inside of ```index.js```. Should have event listeners for each button in the header navbar that wipes out the current contents of ```div#content``` and hen runs the correct tab module to populate it with the new contents again.
+    * [X] Write the tab-switching logic inside of ```index.js```. Should have event listeners for each button in the header navbar that wipes out the current contents of ```div#content``` and hen runs the correct tab module to populate it with the new contents again.
 
 ### Deployment
 

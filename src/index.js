@@ -1,6 +1,7 @@
 import "./style.css";
 import { loadHomePage } from "./home";
 import { loadMenuPage } from "./menu";
+import { loadContactPage } from "./contact";
 
 // console.log("This is your new restaurant page app!");
 
@@ -20,7 +21,7 @@ class DOMControl {
             this.loadMenuContent();
         }
         if (selection === 'Contact') {
-            // do nothing
+            this.loadContactContent();
         }
     })
 
@@ -47,6 +48,12 @@ class DOMControl {
         const menuContent = loadMenuPage();
 
         this.contentElem.appendChild(menuContent.menuElem);
+    }
+
+    loadContactContent() {
+        const contactContent = loadContactPage();
+
+        this.contentElem.appendChild(contactContent.contactElem);
     }
 }
 

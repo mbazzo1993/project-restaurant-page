@@ -7,7 +7,7 @@ Project challenge from The Odin Project's [Project: Restaurant Page](https://www
 ### Development
 
 1. [X] Create the ```package.json``` and set up Webpack.
-    * [ ] Configure and install only the things you'll need for the project,
+    * [X] Configure and install only the things you'll need for the project,
 2. [X] Create a ```.gitignore``` file in the project root. Should contain ```node_modules``` and ```dist``` on separate lines.
 3. [X] Set up an HTML skeleton inside ```src/template.html```:
     * Inside the body add a ```<header>```
@@ -20,8 +20,8 @@ Project challenge from The Odin Project's [Project: Restaurant Page](https://www
     * [X] Add some content exlplaining the restaurant.
 6. [X] Remove everything inside ```div#content``` and instead create them using JS only.
     * [X] Create a page load module in a separate file and import it into ```index.js```, then call the function from within the entry point file.
-7. [ ] Enable tabbed browsing to access the menu and contact pages:
-    * [ ] Put the contents of each tab inside its own module. Each module should export a function that creates a div element, adds appropriate content and styles, and then appends the element to the DOM.
+7. [X] Enable tabbed browsing to access the menu and contact pages:
+    * [X] Put the contents of each tab inside its own module. Each module should export a function that creates a div element, adds appropriate content and styles, and then appends the element to the DOM.
     * [X] Write the tab-switching logic inside of ```index.js```. Should have event listeners for each button in the header navbar that wipes out the current contents of ```div#content``` and hen runs the correct tab module to populate it with the new contents again.
 
 ### Deployment

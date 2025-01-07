@@ -126,18 +126,22 @@ li {
     padding-top: 12px;
 }
 
-.menu-container {
+.menu-container,
+.contact-container {
     width: 100vw;
 
     display: flex;
     flex-direction: column;
 }
 
-.menu-container > h2 {
+.menu-container > h2,
+.contact-container > h2 {
     text-align: center;
 }
 
 .menu-container > ul > li > h3,
-.menu-container > ul > li > p {
+.menu-container > ul > li > p,
+.contact-container > ul > li > h3,
+.contact-container > ul > li > p {
     text-align: center;
 }

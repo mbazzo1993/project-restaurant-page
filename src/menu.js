@@ -31,6 +31,9 @@ export function loadMenuPage() {
     const menuElem = document.createElement('div');
     menuElem.classList.add("menu-container");
 
+    const menuHeaderElem = document.createElement('h2');
+    menuHeaderElem.innerText = menuHeaderText;
+
     const menuUListElem = document.createElement('ul');
     let menuItem;
     for (menuItem of menuItemsArray) {
@@ -50,6 +53,7 @@ export function loadMenuPage() {
         menuUListElem.appendChild(menuLItemElem);
     }
 
+    menuElem.appendChild(menuHeaderElem);
     menuElem.appendChild(menuUListElem);
 
     return {menuElem};

@@ -12,15 +12,17 @@ class DOMControl {
 
     // event listeners
     handleMenuButtonClick = this.navElem.addEventListener("click", (event) => {
-        this.clearContent();
         const selection = event.target.innerText;
         if (selection === 'Home') {
+            this.clearContent()
             this.loadHomePageContent();
         }
         if (selection === 'Menu') {
+            this.clearContent()
             this.loadMenuContent();
         }
         if (selection === 'Contact') {
+            this.clearContent()
             this.loadContactContent();
         }
     })
